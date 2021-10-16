@@ -19,7 +19,8 @@ https://web-frameworks-benchmark.netlify.app/result?metric=averageLatency
 
 Most frameworks, including actix, experience increases in latency as concurrency increases.
 
-They also have suprisingly high P90+ peaks. IE: at 512 concurrency, 1 in 10 requests will have a latency of 5 seconds! Except nickel and iron.
+They also have suprisingly high P90+ peaks. IE: at 512 concurrency, 1 in 10 requests will have a latency of 5 seconds!
+Except nickel and iron.
 Nickel has practically no lag, while iron has latency spikes as high as 1000ms.
 
 code for nickel and iron
