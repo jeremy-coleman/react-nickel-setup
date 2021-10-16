@@ -27,4 +27,4 @@ code for nickel and iron
 https://github.com/the-benchmarker/web-frameworks/blob/master/rust/iron/src/main.rs
 https://github.com/the-benchmarker/web-frameworks/blob/master/rust/nickel/src/main.rs
 
-The results are also consistent time.
+The results are consistent over time.
