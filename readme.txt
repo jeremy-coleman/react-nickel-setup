@@ -34,4 +34,6 @@ Seriously, whatsapp was doing like 3 million connections per second 10 years ago
 Why is Nickel the only framework that isn't performing awfully here?
 Certainly actix and others are capable of being much faster, that's without question.
 However, I don't know why and don't really care, because Nickel is fast and it has a nice express-like api.
+
 I choose you Nickel! <3
+https://github.com/nickel-org/nickel.rs
