@@ -1,0 +1,28 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "react nickel setup",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "cargo run --release",
+    "start:client": "webpack serve --hot",
+    "start": "run-p start:*"
+  },
+  "dependencies": {
+    "css-jss": "10.8.0",
+    "@hot-loader/react-dom": "17.0.1",
+    "react": "17.0.2",
+    "react-hot-loader": "4.13.0",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "4.3.1",
+    "sucrase": "3.20.2",
+    "@sucrase/webpack-loader": "2.0.0",
+    "html-webpack-plugin": "5.4.0",
+    "npm-run-all": "4.1.5",
+    "webpack": "5.58.2",
+    "webpack-cli": "4.9.0",
+    "typescript": "4.4.4"
+  }
+}
