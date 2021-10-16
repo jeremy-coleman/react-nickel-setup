@@ -24,6 +24,7 @@ class App extends Component {
       loading: true
     })
 
+    
     fetch("/api")
       .then((response) => response.text())
       .then((data) => {
