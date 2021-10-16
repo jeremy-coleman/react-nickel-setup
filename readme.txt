@@ -28,3 +28,9 @@ https://github.com/the-benchmarker/web-frameworks/blob/master/rust/iron/src/main
 https://github.com/the-benchmarker/web-frameworks/blob/master/rust/nickel/src/main.rs
 
 The results are consistent over time.
+
+I don't think it's unreasonable that a 8 core processor can handle 512 concurrent requests without having 5 seconds of lag.
+Seriously, whatsapp was doing like 3 million connections per second 10 years ago on a single machine.
+Why is Nickel the only framework that isn't performing awfully here?
+Certainly actix and others are capable of being much faster, that's without question.
+But, I don't know and don't really care, because Nickel is fast and it has a nice express-like api.
