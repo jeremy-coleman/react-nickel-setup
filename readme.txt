@@ -37,3 +37,34 @@ However, I don't know why and don't really care, because Nickel is fast and it h
 
 I choose you Nickel! <3
 https://github.com/nickel-org/nickel.rs
+
+
+
+[notes on react hmr with v18]
+https://github.com/babel/babel-loader
+not working:
+too many to list
+
+working with warning:
+sucrase alone using import { hot } from "react-hot-loader" but console warning
+
+working with warning:
+babel + @hot-loader/react-dom using import { hot } from "react-hot-loader" but console warning
+
+working without warning:
+current setup
+
+[cargo workspace info]
+https://doc.rust-lang.org/cargo/reference/manifest.html#the-workspace-field
+
+[nickel]
+https://github.com/nickel-org/nickel.rs
+https://github.com/nickel-org
+https://github.com/nickel-org/rust-mustache
+https://github.com/nickel-org/cookies
+https://github.com/nickel-org/session
+https://github.com/nickel-org/nickel-postgres
+https://github.com/nickel-org/session
+https://github.com/SimonPersson/nickel-auth
+https://github.com/flosse/nickel-sqlite
+https://github.com/servo/rust-url

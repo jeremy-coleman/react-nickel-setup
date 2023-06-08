@@ -13,13 +13,15 @@ const classes = {
   })
 }
 
+
+
 class App extends Component {
   state = {
     loading: false,
     text: ""
   }
 
-  fetchApi() {
+  fetchApi = (delay = 2000) => {
     this.setState({
       loading: true
     })
@@ -33,7 +35,7 @@ class App extends Component {
             loading: false,
             text: data
           })
-        }, 2000)
+        }, delay)
       })
   }
 
@@ -48,6 +50,8 @@ class App extends Component {
 
     return (
       <div className={classes.container}>
+        <button onClick={() => this.fetchApi(2000)}>fetch with 2000ms delay</button>
+        <button onClick={() => this.fetchApi(0)}>fetch immediately</button>
         Hello world !
         {loading ? (
           <div> Fetching data ...</div>
